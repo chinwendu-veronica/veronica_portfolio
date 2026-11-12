@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contact | Veronica</title>
+    <link rel="icon" href="assets/veronica-favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <header>
+        <a class="brand" href="index.html">VERONICA</a>
+        <nav class="nav" aria-label="Main navigation">
+          <a href="index.html">Home</a><a href="about.html">About</a
+          ><a href="projects.html">Projects</a
+          ><a aria-current="page" href="contact.html">Contact</a
+          ><a href="planner.html">Planner</a>
+        </nav>
+      </header>
+      <main>
+        <div class="page-intro">
+          <h1 class="page-title">Let’s connect.</h1>
+          <p>
+            Have a question, an idea, or an opportunity to share? I’d love to
+            hear from you.
+          </p>
+        </div>
+        <div class="contact-grid">
+          <section class="panel">
+            <h2>Reach me</h2>
+            <div class="contact-list">
+              <a class="contact-item" href="mailto:C.obioma5235@miva.edu.ng"
+                ><small>Email</small>C.obioma5235@miva.edu.ng</a
+              ><a class="contact-item" href="tel:08086077264"
+                ><small>Phone</small>08086077264</a
+              ><a class="contact-item" href="tel:08168614507"
+                ><small>Phone</small>08168614507</a
+              ><a
+                class="contact-item"
+                href="https://www.instagram.com/tall.girl_wendyy?psln=MWpiemE1ZjBkZmY4eg%3D%3D&utm_source=qr"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><small>Instagram</small>@tall.girl_wendyy ↗</a
+              >
+            </div>
+          </section>
+          <section class="panel">
+            <h2>Send a message</h2>
+            <form id="contactForm">
+              <div class="field">
+                <label for="name">Your name</label
+                ><input id="name" name="name" autocomplete="name" required />
+              </div>
+              <div class="field">
+                <label for="email">Your email</label
+                ><input
+                  id="email"
+                  name="email"
+                  type="email"
+                  autocomplete="email"
+                  required
+                />
+              </div>
+              <div class="field">
+                <label for="message">Your message</label
+                ><textarea id="message" name="message" required></textarea>
+              </div>
+              <button class="button" type="submit">Send message</button>
+              <div
+                class="form-message"
+                id="formMessage"
+                role="status"
+                aria-live="polite"
+              ></div>
+            </form>
+          </section>
+        </div>
+      </main>
+      <footer>
+        <strong>© 2026 Obioma Chinwendu Veronica</strong
+        ><span>Reach out let's collaborate</span>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
